@@ -60,13 +60,13 @@ public IEnumerator Honey()
                     Debug.Log("Playing Info");
                     yield return new WaitForSeconds(10f);
                 }
+                //if (playerScoreScript.honey == 3)
+                //{
+                //    startAudioSource4.Play();
+                //    Debug.Log("Playing Info");
+                //    yield return new WaitForSeconds(10f);
+                //}
                 if (playerScoreScript.honey == 3)
-                {
-                    startAudioSource4.Play();
-                    Debug.Log("Playing Info");
-                    yield return new WaitForSeconds(10f);
-                }
-                if (playerScoreScript.honey == 4)
                 {
                     SceneManager.LoadScene("Master");
                     yield return new WaitForSeconds(10f);
@@ -90,3 +90,4 @@ public void OnTriggerExit(Collider other) // This command triggers when an objec
     }
 }
     }
+
