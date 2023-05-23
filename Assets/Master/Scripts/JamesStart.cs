@@ -17,6 +17,6 @@ public class JamesStart : MonoBehaviour
 
     public void LoadJames()
     {
-        SceneManager.LoadScene("James");
+        SceneManager.LoadScene("Welsh");
     }
 }

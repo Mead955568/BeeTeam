@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/James.unity
     guid: bded564a505b59041844ff7c6255c823
+  - enabled: 1
+    path: Assets/Scenes/Welsh.unity
+    guid: 04e532d81fcc60d4fb8906f755e05149
   m_configObjects: {}
