@@ -20,8 +20,8 @@ public class PointsWelsh : MonoBehaviour //This is a script to present the point
         playerScore = 0;
         honey = 0;
 
-        scoreText.text = "Flowers Harvested " + playerScore.ToString();
-        honeyText.text = "Honey Made " +honey.ToString();
+        scoreText.text = "Paill wedi ei gasglu " + playerScore.ToString();
+        honeyText.text = "Mêl wedi'i wneud " + honey.ToString();
     }
 
     // Update is called once per frame
@@ -29,13 +29,13 @@ public class PointsWelsh : MonoBehaviour //This is a script to present the point
     {
         if (playerScore < 3)
         {
-            scoreText.text = "Flowers harvested " + playerScore.ToString();
+            scoreText.text = "Paill wedi ei gasglu " + playerScore.ToString();
         }
         else if (playerScore >= 3)
         {
-            scoreText.text = "Flowers Harvested " + playerScore.ToString() + " Return To Hive";
+            scoreText.text = "Paill wedi ei gasglu " + playerScore.ToString() + " Dychwela i'r cwch gwenyn";
         }
-        honeyText.text = "Land Up Here Honey Made " + honey.ToString();
+        honeyText.text = "Glania fyny fan hyn " + honey.ToString();
 
 
         }
